@@ -99,4 +99,14 @@ body{
     color: white;
     background-color: black;
     margin: auto;
+    user-select: none;
+}
+
+br {
+    user-select: none;
+}
+
+.players {
+    user-select: none;
+    font-weight: bolder;
 }
