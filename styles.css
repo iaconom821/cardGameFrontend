@@ -6,6 +6,7 @@ body{
     display: grid;
     justify-content: center;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .game-container {

@@ -40,7 +40,9 @@ gameArea.addEventListener('click', () => {
 
 })
 
-resetButton.addEventListener('click', () => {
+resetButton.addEventListener('click', (e) => {
+    e.preventDefault()
+   
     startGame();
 })
 
@@ -142,3 +144,4 @@ function isRoundWinner(cardOne, cardTwo) {
 function isGameOver(deck){
     return deck.numberOfCards === 0
 }
+
