@@ -19,6 +19,8 @@ body{
     justify-content: center;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    background-color: green;
+    border-radius: 5rem;
 }
 
 .deck{
@@ -48,6 +50,8 @@ body{
     justify-content: center;
     align-items: center;
     user-select: none;
+    color: yellow;
+    font-weight: bold;
 }
 
 .card.red{
@@ -69,6 +73,7 @@ body{
     align-items: center;
     font-size: 4rem;
     user-select: none;
+    background: white;
 }
 
 .card::before,
