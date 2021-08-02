@@ -82,7 +82,7 @@ function flipCards() {
     updateDeckCount()
 
     if(isRoundWinner(playerCard, computerCard) === "p1") {
-        text.innerText = "Player 1 Wins!"
+        text.innerText = "Player 2 Wins!"
         if(playerDeck.tieCards[0]){
             playerDeck.tieCards.forEach(card => {
                 playerDeck.discard(card)
@@ -97,7 +97,7 @@ function flipCards() {
         playerDeck.discard(playerCard)
         playerDeck.discard(computerCard)
     } else if (isRoundWinner(playerCard, computerCard) === "p2" ){
-        text.innerText = "Player 2 Wins!"
+        text.innerText = "Player 1 Wins!"
         if(playerDeck.tieCards[0]){
             playerDeck.tieCards.forEach(card => {
                 computerDeck.discard(card)
